@@ -1,0 +1,23 @@
+# Ignore everything by default; only the files whitelisted below are published
+/*
+
+# Source code, license and documentation
+!/.gitignore
+!/LICENSE
+!/README.md
+!/requirements.txt
+!/carpio_benavides_implementation.ipynb
+
+# Incomplete datasets (10%, 20% and 30% MCAR)
+!/missing_values_datasets/
+
+# Fold-level results only
+!/results/
+/results/*
+!/results/fold_scores_all.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
